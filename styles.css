@@ -768,6 +768,11 @@ main {
 }
 
 @media (max-width: 800px) {
+
+    .img-car {
+        width: 30%;
+    }
+
     .header-bottom {
         padding-right: 60px;
         padding-left: 60px;
@@ -884,6 +889,23 @@ main {
     .menu-list:nth-child(2) {
         text-align: center;
     }
+
+    .sec2-left-block {
+        background-size: cover;
+        border-radius: 45px;
+    }
+    .sec2-left-block::after {
+        width: 100%;
+    }
+    .pickup {
+        margin-left: 0;
+    }
+    .big-car-block-top {
+        justify-content: space-between;
+    }
+    .img-block, .img-list {
+        width: 100%;
+    }
 }
 
 
@@ -944,8 +966,3 @@ main {
     content: '';
     top: 8px;
 }
-
-
-
-
-
