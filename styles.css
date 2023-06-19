@@ -908,6 +908,12 @@ main {
     }
 }
 
+@media (max-width: 400px) {
+    .header-top {
+        flex-direction: column;
+    }
+}
+
 
 #menu__toggle {
     display: none;
