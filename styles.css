@@ -855,10 +855,6 @@ main {
         padding-left: 15px;
     }
 
-    .header-top {
-        flex-direction: column;
-    }
-
     .sec1-footer-block {
         max-width: 334px;
         width: 100%;
