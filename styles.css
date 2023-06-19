@@ -892,7 +892,7 @@ main {
 
     .sec2-left-block {
         background-size: cover;
-        border-radius: 45px;
+        border-radius: 0 45px 45px 0;
     }
     .sec2-left-block::after {
         width: 100%;
